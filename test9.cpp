@@ -110,14 +110,15 @@ int main()
             cout << "Tree height = " << testTree.getHeight() << endl;
             break;
 #endif	// LAB9_TEST2
-/*
-#if   LAB9_TEST3
-        case '<':                              // Programming Exercise 3
-            cout << "Keys < " << inputKey << " : " << endl;
-            testTree.writeLessThan(inputKey);
-            cout << endl;
-            break;
-#endif	// LAB9_TEST3 */
+
+//#if   LAB9_TEST3
+//        case '<':                              // Programming Exercise 3
+//            cout << "Keys < " << inputKey << " : " << endl;
+//            testTree.writeLessThan(inputKey);
+//            cout << endl;
+//            break;
+//#endif	// LAB9_TEST3 
+
 
         case 'Q': case 'q':                    // Quit test prog
             break;
@@ -160,15 +161,15 @@ void print_help() {
         << "(Inactive : "
 #endif
         << "In-lab Exercise 2)" << endl;
-    /*
-    cout << "  <key : Write keys that are < key   "
+    
+//    cout << "  <key : Write keys that are < key   "
 
-#if LAB9_TEST3
-        << "(Active   : "
-#else
-        << "(Inactive : "
-#endif
-        << "In-lab Exercise 3)" << endl; */
+//#if LAB9_TEST3
+//        << "(Active   : "
+//#else
+//        << "(Inactive : "
+//#endif
+//       << "In-lab Exercise 3)" << endl; 
     cout << "  Q    : Quit the test program" << endl;
     cout << endl;
 }
